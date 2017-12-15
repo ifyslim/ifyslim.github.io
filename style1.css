@@ -1,0 +1,69 @@
+body {
+width: 90%;
+margin: 0 auto;
+background-image: url(img/snow.jpg);
+background-size: 100%;
+}
+
+#content {
+    overflow: auto;
+}
+
+.column1, .column2, .column3 {
+width: 31.3%;
+float: left;
+margin: 1%;
+}
+.column3 {
+    margin-right: 0%;
+}
+
+ #nav ul li{
+    float: left;
+	list-style:none;
+	width:100px;
+	position: relative;
+	text-align:center;
+	line-height: 30px;
+	height: 30px;
+	background-color:rgb(11, 11, 12);
+    opacity: .6;
+    padding: 2px ;
+        
+}
+#nav ul li a{
+	color:rgb(248, 246, 246);
+	padding: 2px ;
+	margin: 2px;
+    text-decoration: none;
+    
+}
+
+#nav ul li ul{
+	display:inline;
+	position:absolute;
+
+}
+
+#nav ul li a:hover{
+	height:5px;
+	box-sizing: 20px;
+}
+
+#nav ul li ul li{
+	display:none;
+}
+ul li:hover ul li{
+	display: block;
+}
+
+#nav, #footer {
+background-color: #1bb896;
+
+}
+#feature, .article {
+height: 20px;
+margin-bottom: 1em;
+background-color: #f02f2f;
+margin: 1%;
+}

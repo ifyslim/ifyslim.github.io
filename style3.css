@@ -1,0 +1,67 @@
+body{
+    padding-top: 50px;
+    margin-bottom: 50px;
+    background: url("img/about2.jpg") no-repeat;
+    background-size: cover;
+}
+.Add{
+    list-style: none;
+}
+.box{
+    height:300px;
+    text-align: center; 
+    opacity:.8;
+    background: rgba(54, 46, 56, 0.959);
+    color: white;
+    width:600px;
+    margin: auto;
+    padding: 20px;
+
+}
+.container{
+    list-style: none;
+}
+.footer-social {
+    margin: 200px auto;
+    justify-content: space-around;
+    display: flex;
+    max-width: 700px;
+}
+
+.footer-social a{
+    text-decoration: none;
+    font-size: 28px;
+    color: #f1f1f1;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    transition: 0.4s all;
+    line-height: 58px;
+    cursor: pointer;
+    background: #2506beec;
+    border-radius: 50%; 
+
+}
+
+.footer-social a:hover{
+    transform: scale(1.2);
+}
+
+.fa-twitter a{
+    background: rgb(36, 127, 230)
+}
+
+#footer{
+    background-color: rgba(54, 46, 56, 0.959);
+}
+
+a {
+    margin: 6%;
+    text-align: center;
+    color: rgb(201, 186, 186);
+    text-decoration: none;
+}
+.box .container .add p{
+    text-align: center;
+    margin: 20px;
+}

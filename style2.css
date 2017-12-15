@@ -1,0 +1,75 @@
+body {
+width: 90%;
+margin: 0 auto;
+padding: 0;
+background: url("img/about2.jpg") no-repeat;
+background-size: cover;
+}
+
+.box{
+   width: 800px;
+   background: rgba(3, 1, 34, 0.6);
+   padding:40px;
+   text-align: center;
+   margin: auto;
+   margin-top: 2%;
+   color: white;
+   overflow:auto;
+}
+
+#content {
+    overflow: auto;
+}
+
+ #footer {
+margin: 1%;
+text-align: center;
+
+}
+
+a{
+    color: white;
+     
+}
+
+#header, #footer {
+background-color: rgba(54, 46, 56, 0.959);
+
+color: rgb(201, 186, 186)
+}
+
+#header h2{
+    text-align: center;
+    font-family: "Great Vibes";
+    
+}
+
+.box-img{
+    border-radius: 50%;
+    height: 200px;
+    width:200px;
+}
+
+.box2 img{
+    height: 200px;
+    width:200px;
+}
+
+.box2 .img2 {
+    height:300px;
+    width:300px;
+    Float :left;
+
+}
+.box2{
+    width: 800px;
+    background: rgba(3, 1, 34, 0.6);
+    padding:40px;
+    margin: auto;
+    margin-top: 2%;
+    color: white;
+    overflow:auto;
+}
+
+.box2 h2 {
+   text-align: center;
